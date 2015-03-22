@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addFooterView_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/expandableListView" >
+
+    <ImageView
+        android:id="@+id/imageView1011"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="10dip"
+        android:src="@drawable/doghouse_logo" />
+
+    <TextView
+        android:id="@+id/gongnengshezhi_content"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_toRightOf="@+id/imageView1011"
+        android:gravity="left"
+        android:paddingLeft="10dip"
+        android:paddingTop="5dip"
+        android:text="功能设置"
+        android:textSize="22sp" />
+
+</RelativeLayout>
